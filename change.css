@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.grid{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+    gap:50px 100px ;
+}
+.logo{
+    font-size: 20px;
+    height: 50px;
+    cursor: pointer;
+    animation-name: spring;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spring{
+    from {
+      transform: scale(1);
+    }
+  
+    to {
+      transform: scale(2);
+    }
+  }
+ .text{
+    text-transform: uppercase;
+    font-size: 20px;
+    gap: 1px 7px;
+ }
+ .one{
+    text-align: center;
+ }
+ .two{
+    text-align:center;
+ }
+ .pics{
+    height: 100px;
+    width: 80px;
+    font-size: 20px;
+ }
+
+ .table{
+
+   display: flex;
+   gap: 30px; 
+   width: 75%;
+
+ }
+ table{
+   
+   width: 75%;
+   border: 1px solid black;
+   border-collapse: collapse ;
+   border: double;
+   margin-top: 20px;
+   margin-bottom: 20px;  
+}
+ td{
+
+   padding: 10px;
+   border: 2px solid black;
+   color: 1px solid black; 
+ }
+.icons{
+   height: 100px;
+   width: 100px;
+   margin-top: 40px;
+   
+}
+h3 ,h2 ,h1{
+   text-transform: uppercase;
+
+}
+.five{
+   width: 100%;
+   text-transform: uppercase;
+}
+
+td:one {
+   text-transform: uppercase;
+}
